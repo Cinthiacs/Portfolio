@@ -1,0 +1,29 @@
+{
+    "page_title":"Portfolio",
+    "home":{
+        "menu_text": "Home",
+        "sub_title": "### Systems Analysis and Development Student\n#### Facens|Sorocaba-SP",
+        "about_me": "Looking for an opportunity in the area to hone my knowledge.\nI'm committed to building a strong career along the way, whether that's working on challenging projects, collaborating with talented teams, or developing innovative solutions.",
+        "experience":"- LINCE Facens Volunteer Internship. 06/2021- 12/2021.\n* Inmoov project consisting of a robotic arm driven by\n arduino microcontroller.\n Research to develop algorithms for recognizing gestures\n in images in the python language to identify the movements of\n fingers and reproduce them in the prototype.\n- Internship BRAIN Facens 01/2022 - 05/2022.\n* Research in optical character recognition in \n python language, I carried out projects from the python Crash Course course on Coursera,\n monitored through the monday project management tool.\n - FIT Vacation Program |Flextronics MCTI Futuro 01/23.\n* HandsOn Project:\n* Software development through the Flutter framework, in the \n Dart language, firmware development for microcontroller\n ESP32, to exemplify the prototype of the project, \n hardware was developed to simulate a smartwatch, a case was designed in\n 3d printer where the ESP32 is connected to a battery and a \n Heart Beat Rate sensor to collect data of heartbeats\n per minute, in communication via Bluetooth, with a\n application developed in Flutter, thus displaying data about\n heartbeats in a chat."
+
+    },
+
+    "projects": {
+        "menu_text": "Projetos",
+        "project_list":[
+            {
+               "title": "Ocr Tesseract",
+               "description": "ababa",
+               "picture": "assets/feedme.png",
+               "youtube": "",
+               "repository": "" 
+            }
+        ]
+    },
+
+    "contact": {
+        "menu_text": "Contacts"
+    }
+}
+
+
