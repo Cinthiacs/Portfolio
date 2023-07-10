@@ -13,12 +13,12 @@ def get_pdffile():
     return resume_file
 
 def get_content_path(language:str):
-    if language == "pt-br":
+    if language == "Português":
         current_dir = Path(__file__).parent if "__file" in locals() else Path.cwd()
         content_file = current_dir / "assets" / "pt-br.json"
         return content_file
     
-    elif language == "en-us":
+    elif language == "English":
         current_dir = Path(__file__).parent if "__file" in locals() else Path.cwd()
         content_file = current_dir / "assets" / "en-us.json"
         return content_file
