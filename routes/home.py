@@ -31,7 +31,7 @@ def home_page():
         with open(resume_file,"rb") as pdf_file:
             PDFbyte= pdf_file.read()  #Salvando pdf em binario
             
-        profile_img = Image.open(get_assets_path() / "cinthiacs.png")
+        profile_img = Image.open(get_assets_path() / "Cinthiacs.png")
         st.image(get_circular_img(profile_img))
         st.download_button(
             label= "📄 Download CV",
