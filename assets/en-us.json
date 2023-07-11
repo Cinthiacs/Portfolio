@@ -1,29 +1,68 @@
 {
-    "page_title":"Portfolio",
-    "home":{
-        "menu_text": "Home",
-        "sub_title": "### Systems Analysis and Development Student\n#### Facens|Sorocaba-SP",
-        "about_me": "Looking for an opportunity in the area to improve my knowledge.\nI'm committed to building a strong career along the way, whether that's working on challenging projects, collaborating with talented teams, or developing innovative solutions.",
-        "experience":"- LINCE Facens Volunteer Internship. 06/2021- 12/2021.\n* Inmoov project consisting of a robotic arm driven by\n arduino microcontroller.\n Research to develop algorithms for recognizing gestures\n in images in the python language to identify the movements of\n fingers and reproduce them in the prototype.\n- Internship BRAIN Facens 01/2022 - 05/2022.\n* Research in optical character recognition in \n python language, I carried out projects from the python Crash Course course on Coursera,\n monitored through the monday project management tool.\n - FIT Vacation Program |Flextronics MCTI Futuro 01/23.\n* HandsOn Project:\n* Software development through the Flutter framework, in the \n Dart language, firmware development for microcontroller\n ESP32, to exemplify the prototype of the project, \n hardware was developed to simulate a smartwatch, a case was designed in\n 3d printer where the ESP32 is connected to a battery and a \n Heart Beat Rate sensor to collect data of heartbeats\n per minute, in communication via Bluetooth, with a\n application developed in Flutter, thus displaying data about\n heartbeats in a chat."
-
+    "page_title": "Portfolio",
+    "home": {
+      "menu_text": "Home",
+      "sub_title": "### Analysis and Systems Development Student\n#### Facens | Sorocaba-SP",
+      "about_me": "Seeking an opportunity in the field to enhance my knowledge. I am committed to building a solid career by working on challenging projects, collaborating with talented teams, and developing innovative solutions.",
+      "experience": "- LINCE Facens Voluntary Internship, 06/2021-12/2021:\n  * Inmoov Project, which consists of a robotic arm controlled by Arduino microcontroller. Conducted research to develop gesture recognition algorithms in Python to identify finger movements and reproduce them on the prototype.\n- BRAIN Facens Internship, 01/2022-05/2022:\n  * Optical character recognition research using Python. Completed projects from the Python Crash Course on Coursera, monitored through the Monday project management tool.\n- FIT | Flextronics MCTI Future Vacation Program, 01/23:\n  * HandsOn Project: software development using the Flutter framework and Dart language, and firmware development for the ESP32 microcontroller. Created a smartwatch prototype that measures heart rate using a Heart Beat Rate sensor and displays the data in a Flutter app via Bluetooth."
     },
-
     "projects": {
-        "menu_text": "Projetos",
-        "project_list":[
-            {
-               "title": "Ocr Tesseract",
-               "description": "ababa",
-               "picture": "assets/feedme.png",
-               "youtube": "",
-               "repository": "" 
-            }
-        ]
+      "menu_text": "Projects",
+      "project_list": [
+        {
+          "title": "OCR Tesseract",
+          "description": "This project is an implementation of an algorithm to read identification documents and display their image in real-time on a camera, developed in Python using the Jupyter Notebook IDE.",
+          "picture": "assets/ocr_tesseract.jpg",
+          "youtube": "",
+          "repository": "[![GitHub Repository](https://img.shields.io/badge/Repository-purple?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Cinthiacs/ocr_with_pytesseract)"
+        },
+        {
+          "title": "OCR Paddle",
+          "description": "This project is an implementation of an algorithm to read identification documents and display their image in real-time on a camera, developed in Python using the Jupyter Notebook IDE.",
+          "picture": "assets/paddle.png",
+          "youtube": "",
+          "repository": "[![GitHub Repository](https://img.shields.io/badge/Repository-purple?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Cinthiacs/Ocr_with_paddle)"
+        },
+        {
+          "title": "Java Challenges BootCamp Banco PAN - DIO",
+          "description": "I share my Java language studies developed during my journey in the Banco Pan Boot Camp through the Digital Innovation One platform.",
+          "picture": "assets/bootcamp.png",
+          "youtube": "",
+          "repository": "[![GitHub Repository](https://img.shields.io/badge/Repository-purple?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Cinthiacs/desafiosBootCampDioPan)"
+        },
+        {
+          "title": "Hands On | Vacation Program | FIT | Flextronics",
+          "description": "Developed firmware on the ESP32 microcontroller connected to a Heart Beat Rate sensor to measure heart rate, simulating a smartwatch. The data is displayed in an app via a chat developed in Flutter.",
+          "picture": "",
+          "youtube": "https://youtu.be/-qSIY-veNfs",
+          "repository": "[![GitHub Repository](https://img.shields.io/badge/Repository-purple?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Cinthiacs/feedMe)"
+        },
+        {
+          "title": "Titanic Challenge Kaggle | Brain - A.I League Brain - Facens | Sorocaba",
+          "description": "In this project, I explore machine learning techniques to predict the chances of survival in the Titanic disaster.",
+          "picture": "assets/titanic.png",
+          "youtube": "",
+          "repository": "[![GitHub Repository](https://img.shields.io/badge/Repository-purple?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Cinthiacs/titanicChallenge)"
+        },
+        {
+          "title": "Drawbridge - Facens | Sorocaba",
+          "description": "This project, created for the UPX | Creative Engineering discipline, explores Pascal's Principle. I developed firmware in the C language for the Arduino UNO microcontroller, along with technical drawings and the development of a miniature prototype.",
+          "picture": "",
+          "youtube": "https://youtu.be/HqbuGtEqYuc",
+          "repository": "[![GitHub Repository](https://img.shields.io/badge/Repository-purple?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Cinthiacs/Ponte_levadica)"
+        },
+        {
+          "title": "Automated Irrigation - Facens | Sorocaba",
+          "description": "This project, created for the UPX | Creative Engineering discipline, explores the theme of Water. I developed firmware in the C language for the Arduino UNO microcontroller, along with technical drawings and the development of a miniature prototype.",
+          "picture": "",
+          "youtube": "https://youtu.be/SiPStwmjtIQ",
+          "repository": "[![GitHub Repository](https://img.shields.io/badge/Repository-purple?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Cinthiacs/Rega_automatizada)"
+        }
+      ]
     },
-
     "contact": {
-        "menu_text": "Contacts"
+      "menu_text": "Contacts",
+      "contact_list": "[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/cinthia-cavalheiro-silverio) [![GitHub](https://img.shields.io/badge/GitHub-black?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Cinthiacs)\n\n**Email**: cinthiadiascavalheiro@gmail.com\n\n**Phone**: (15) 99146-7880 ![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)"
     }
-}
-
-
+  }
+  

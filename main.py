@@ -12,32 +12,29 @@ def main():
     
     st.set_page_config(
       page_title = get_page_title(get_content_path(st.session_state.lang)),
-      page_icon="📃"
+      page_icon="📃",
+      #layout='wide'
     )
 
-    css_file = get_cssfile_path()
-    with open(css_file) as f:
-        st.markdown("<style>{}</style>".format(f.read()), 
-                    unsafe_allow_html=True)
 
     menu = get_menu_list(get_content_path(st.session_state.lang))
-    col1, col2 = st.columns([3,1])
+    col1, col2 = st.columns([4,1])
     with col1:
         st.write('')
-        st.session_state.selected = option_menu( menu_title=None,
-                                                options= menu,
-                                                icons=["house-heart","code-slash","envelope-check-fill"],
-                                                menu_icon= "cast",
-                                                orientation="horizontal", 
-                                                )
+        selected = option_menu( menu_title=None,
+                                options= menu,
+                                icons=["house-heart","code-slash","envelope-check-fill"],
+                                menu_icon= "cast",
+                                orientation="horizontal", 
+                                )
 
-        if st.session_state.selected == menu[0]:
+        if selected == menu[0]:
             home_page()
 
-        if st.session_state.selected == menu[1]:
+        if selected == menu[1]:
             projects_page()
 
-        if st.session_state.selected == menu[2]:
+        if selected == menu[2]:
             contact_page()
 
     with col2:

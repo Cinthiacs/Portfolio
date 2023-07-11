@@ -40,5 +40,9 @@ def get_projects_project_list(content_path:str):
         content = json.load(f)
     return content["projects"]["project_list"]
 
+def get_contact_contact_list(content_path:str):
+    with open(content_path,"r",encoding="utf-8") as f:
+        content = json.load(f)
+    return content["contact"]["contact_list"]
     
     

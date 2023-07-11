@@ -1,61 +1,68 @@
 {
-    "page_title":"Portfólio",
-    
-    "home":{
-        "menu_text": "Início",
-        "sub_title": "### Estudante de Análise e Desenvolvimento de Sistemas\n#### Facens|Sorocaba-SP",
-        "about_me": "Em busca de uma oportunidade na área para lapidar meus conhecimentos.\nEstou empenhada em construir uma carreira sólida em meu trajeto, seja trabalhando em projetos desafiadores, colaborando com equipes talentosas ou desenvolvendo soluções inovadoras.",
-        "experience":" - Estágio Voluntário LINCE Facens. 06/2021- 12/2021.\n* Projeto Inmoov que consiste em um braço robótico acionado por\n microcontrolador arduíno.\n Pesquisa para desenvolver algoritmos de reconhecimento de gestos\n em imagem na linguagem python para identificar os movimentos dos\n dedos e reproduzi-los no protótipo.\n- Estágio BRAIN Facens 01/2022 - 05/2022.\n* Pesquisa em reconhecimento óptico de caracteres na linguagem \n python, realizei projetos do curso python Crash Course do Coursera,\n monitorados através da ferramenta de gestão de projetos monday.\n - Programa de Férias FIT |Flextronics MCTI Futuro 01/23.\n* Projeto HandsOn:\n* Desenvolvimento de software através do framework Flutter, na \n linguagem Dart , desenvolvimento firmware para microcontrolador\n ESP32, para exemplificar o protótipo do projeto, foi desenvolvido um \n hardware para simular um smartwach, foi projetado uma case em\n impressora 3d onde o ESP32 está conectado a uma bateria e um \n sensor Heart Beat Rate para coletar os dados de batimentos cardíacos\n por minuto, em comunicação via Bluetooth, com um\n aplicativo desenvolvido em Flutter, assim exibindo os dados sobre os\n batimentos cardíacos em um chat."
+    "page_title": "Portfólio",
+    "home": {
+      "menu_text": "Início",
+      "sub_title": "### Estudante de Análise e Desenvolvimento de Sistemas\n#### Facens | Sorocaba-SP",
+      "about_me": "Em busca de uma oportunidade na área para aprimorar meus conhecimentos. Estou empenhada em construir uma carreira sólida, trabalhando em projetos desafiadores, colaborando com equipes talentosas e desenvolvendo soluções inovadoras.",
+      "experience": "- **Estágio Voluntário LINCE Facens**, 06/2021-12/2021:\n  * Projeto Inmoov, que consiste em um braço robótico acionado por microcontrolador Arduino. Realizei pesquisas para desenvolver algoritmos de reconhecimento de gestos em imagens utilizando Python para identificar os movimentos dos dedos e reproduzi-los no protótipo.\n\n\n * **Estágio BRAIN Facens**, 01/2022-05/2022:\n  * Pesquisa em reconhecimento óptico de caracteres utilizando Python. Realizei projetos do curso Python Crash Course do Coursera, monitorados através da ferramenta de gestão de projetos Monday.\n\n- Programa de Férias FIT | Flextronics MCTI Futuro, 01/23:\n  * **Projeto HandsOn:**\n  * Desenvolvimento de software utilizando o framework Flutter e a linguagem Dart, além do desenvolvimento de firmware para o microcontrolador ESP32. Criei um protótipo de smartwatch que mede os batimentos cardíacos por minuto através de um sensor Heart Beat Rate e exibe os dados em um aplicativo Flutter via Bluetooth."
     },
-
     "projects": {
-        "menu_text": "Projetos",
-        "project_list":[
-            {
-               "title": "Ocr Tesseract",
-               "description": "Este projeto é uma implementação de um algoritmo para realizar\n a leitura de um documento de identificação e exibir sua imagem em tempo real\n em uma câmera, desenvolvido em Python na IDE Jupyter Notebook.",
-               "picture": "assets/ocr_tesseract.jpg",
-               "youtube": "",
-               "repository": "[![Repositório no GitHub](https://img.shields.io/badge/Repositorio-purple?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Cinthiacs/ocr_with_pytesseract)"
-                               
-            },
-            {
-               "title": "OCR paddle",
-               "description":"Este projeto é uma implementação de um algoritmo para realizar/n a leitura de um documento de identificação e exibir sua imagem em tempo real/n em uma câmera, desenvolvido em Python na IDE Jupyter Notebook.",
-               "picture": "assets/paddle.png",
-               "youtube": "",
-               "repository":"[![Repositório no GitHub](https://img.shields.io/badge/Repositorio-purple?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Cinthiacs/Ocr_with_paddle)"
-            },
-
-            {
-                "title": "Desafios em Java BootCamp Banco PAN - DIO",
-                "description":"Este projeto é Disponibilizo meus estudos na linguagem Java\n que desenvolvi durante minha jornada no Boot Camp Banco Pan,\n através da plataforma DIGITAL INNOVATION ONE",
-                "picture": "assets/bootcamp.png",
-                "youtube": "",
-                "repository":"[![Repositório no GitHub](https://img.shields.io/badge/Repositorio-purple?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Cinthiacs/desafiosBootCampDioPan)"
-             },
-
-             {
-                "title": "Hands On|Programa de Férias| FIT|Flextronics",
-                "description":"Este projeto  consiste em uma pesquisa para coletar dados se baseando no gasto energético diário\n do indivíduo, para realizar essa tarefa foi desenvolvido um firmware no microcontrolador ESP 32 conectado ao sensor Heart Beat Rate\n para medir os batimentos cardiacos, simulando um smartwatch.",
-                "picture": "assets/feedme.png",
-                "youtube": "",
-                "repository":"[![Repositório no GitHub](https://img.shields.io/badge/Repositorio-purple?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Cinthiacs/feedMe)"
-             },
-
-             {
-                "title": "Titanic Challenge Kaggle|Brain - A.I League Brain - Facens|Sorocaba",
-                "description":"Este projeto exploro a respeito sobre técnicas de aprendizado de máquina para prever/n as chances de sobrevivência no naufrágio do Titanic.",
-                "picture": "assets/titanic.png",
-                "youtube": "",
-                "repository":"[![Repositório no GitHub](https://img.shields.io/badge/Repositorio-purple?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Cinthiacs/titanicChallenge)"
-             }
-
-        ]
-            
-        
+      "menu_text": "Projetos",
+      "project_list": [
+        {
+          "title": "OCR Tesseract",
+          "description": "Este projeto é uma implementação de um algoritmo para realizar a leitura de um documento de identificação e exibir sua imagem em tempo real em uma câmera, desenvolvido em Python na IDE Jupyter Notebook.",
+          "picture": "assets/ocr_tesseract.jpg",
+          "youtube": "",
+          "repository": "[![Repositório no GitHub](https://img.shields.io/badge/Repositório-purple?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Cinthiacs/ocr_with_pytesseract)"
+        },
+        {
+          "title": "OCR Paddle",
+          "description": "Este projeto é uma implementação de um algoritmo para realizar a leitura de um documento de identificação e exibir sua imagem em tempo real em uma câmera, desenvolvido em Python na IDE Jupyter Notebook.",
+          "picture": "assets/paddle.png",
+          "youtube": "",
+          "repository": "[![Repositório no GitHub](https://img.shields.io/badge/Repositório-purple?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Cinthiacs/Ocr_with_paddle)"
+        },
+        {
+          "title": "Desafios em Java BootCamp Banco PAN - DIO",
+          "description": "Disponibilizo meus estudos na linguagem Java desenvolvidos durante minha jornada no Boot Camp Banco Pan através da plataforma Digital Innovation One.",
+          "picture": "assets/bootcamp.png",
+          "youtube": "",
+          "repository": "[![Repositório no GitHub](https://img.shields.io/badge/Repositório-purple?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Cinthiacs/desafiosBootCampDioPan)"
+        },
+        {
+          "title": "Hands On | Programa de Férias | FIT | Flextronics",
+          "description": "Desenvolvi um firmware no microcontrolador ESP32 conectado a um sensor Heart Beat Rate para medir os batimentos cardíacos, simulando um smartwatch.\n Os dados são exibidos em um aplicativo através de um chat desenvolvido em Flutter.",
+          "picture": "",
+          "youtube": "https://youtu.be/-qSIY-veNfs",
+          "repository": "[![Repositório no GitHub](https://img.shields.io/badge/Repositório-purple?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Cinthiacs/feedMe)"
+        },
+        {
+          "title": "Titanic Challenge Kaggle | Brain - A.I League Brain - Facens | Sorocaba",
+          "description": "Neste projeto, explorei técnicas de aprendizado de máquina para prever as chances de sobrevivência no naufrágio do Titanic.",
+          "picture": "assets/titanic.png",
+          "youtube": "",
+          "repository": "[![Repositório no GitHub](https://img.shields.io/badge/Repositório-purple?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Cinthiacs/titanicChallenge)"
+        },
+        {
+          "title": "Ponte Levadiça - Facens | Sorocaba",
+          "description": "Este projeto, realizado para a disciplina UPX | Engenharia Criativa, explora o Princípio de Pascal. Desenvolvi um firmware em linguagem C para o microcontrolador Arduino UNO, juntamente com o desenho técnico e o desenvolvimento de um protótipo em miniatura.",
+          "picture": "",
+          "youtube": "https://youtu.be/HqbuGtEqYuc",
+          "repository": "[![Repositório no GitHub](https://img.shields.io/badge/Repositório-purple?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Cinthiacs/Ponte_levadica)"
+        },
+        {
+          "title": "Rega Automatizada - Facens | Sorocaba",
+          "description": "Este projeto, realizado para a disciplina UPX | Engenharia Criativa, explora o tema Água. Desenvolvi um firmware em linguagem C para o microcontrolador Arduino UNO, juntamente com o desenho técnico e o desenvolvimento de um protótipo em miniatura.",
+          "picture": "",
+          "youtube": "https://youtu.be/SiPStwmjtIQ",
+          "repository": "[![Repositório no GitHub](https://img.shields.io/badge/Repositório-purple?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Cinthiacs/Rega_automatizada)"
+        }
+      ]
     },
     "contact": {
-        "menu_text": "Contatos"
+      "menu_text": "Contatos",
+      "contact_list": "[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/cinthia-cavalheiro-silverio) [![GitHub](https://img.shields.io/badge/GitHub-black?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Cinthiacs)\n\n**Email**: cinthiadiascavalheiro@gmail.com\n\n**Celular**: (15) 99146-7880 ![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)"
     }
-}
+  }
+  
