@@ -4,7 +4,7 @@ from utils.image_utils import get_circular_img
 from pathlib import Path
 from utils.project_path import get_pdffile
 from utils.page_content import get_home_subtitle, get_home_about_me,get_home_experience
-from utils.project_path import get_content_path
+from utils.project_path import get_content_path, get_assets_path
 
 
 def home_page():
@@ -31,7 +31,7 @@ def home_page():
         with open(resume_file,"rb") as pdf_file:
             PDFbyte= pdf_file.read()  #Salvando pdf em binario
             
-        profile_img = Image.open("assets/cinthiacs.png")
+        profile_img = Image.open(get_assets_path() / "cinthiacs.png")
         st.image(get_circular_img(profile_img))
         st.download_button(
             label= "📄 Download CV",

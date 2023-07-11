@@ -12,21 +12,21 @@
         {
           "title": "OCR Tesseract",
           "description": "This project is an implementation of an algorithm to read identification documents and display their image in real-time on a camera, developed in Python using the Jupyter Notebook IDE.",
-          "picture": "assets/ocr_tesseract.jpg",
+          "picture": "ocr_tesseract.jpg",
           "youtube": "",
           "repository": "[![GitHub Repository](https://img.shields.io/badge/Repository-purple?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Cinthiacs/ocr_with_pytesseract)"
         },
         {
           "title": "OCR Paddle",
           "description": "This project is an implementation of an algorithm to read identification documents and display their image in real-time on a camera, developed in Python using the Jupyter Notebook IDE.",
-          "picture": "assets/paddle.png",
+          "picture": "paddle.png",
           "youtube": "",
           "repository": "[![GitHub Repository](https://img.shields.io/badge/Repository-purple?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Cinthiacs/Ocr_with_paddle)"
         },
         {
           "title": "Java Challenges BootCamp Banco PAN - DIO",
           "description": "I share my Java language studies developed during my journey in the Banco Pan Boot Camp through the Digital Innovation One platform.",
-          "picture": "assets/bootcamp.png",
+          "picture": "bootcamp.png",
           "youtube": "",
           "repository": "[![GitHub Repository](https://img.shields.io/badge/Repository-purple?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Cinthiacs/desafiosBootCampDioPan)"
         },
@@ -40,7 +40,7 @@
         {
           "title": "Titanic Challenge Kaggle | Brain - A.I League Brain - Facens | Sorocaba",
           "description": "In this project, I explore machine learning techniques to predict the chances of survival in the Titanic disaster.",
-          "picture": "assets/titanic.png",
+          "picture": "titanic.png",
           "youtube": "",
           "repository": "[![GitHub Repository](https://img.shields.io/badge/Repository-purple?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Cinthiacs/titanicChallenge)"
         },

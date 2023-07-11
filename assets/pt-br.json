@@ -12,21 +12,21 @@
         {
           "title": "OCR Tesseract",
           "description": "Este projeto é uma implementação de um algoritmo para realizar a leitura de um documento de identificação e exibir sua imagem em tempo real em uma câmera, desenvolvido em Python na IDE Jupyter Notebook.",
-          "picture": "assets/ocr_tesseract.jpg",
+          "picture": "ocr_tesseract.jpg",
           "youtube": "",
           "repository": "[![Repositório no GitHub](https://img.shields.io/badge/Repositório-purple?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Cinthiacs/ocr_with_pytesseract)"
         },
         {
           "title": "OCR Paddle",
           "description": "Este projeto é uma implementação de um algoritmo para realizar a leitura de um documento de identificação e exibir sua imagem em tempo real em uma câmera, desenvolvido em Python na IDE Jupyter Notebook.",
-          "picture": "assets/paddle.png",
+          "picture": "paddle.png",
           "youtube": "",
           "repository": "[![Repositório no GitHub](https://img.shields.io/badge/Repositório-purple?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Cinthiacs/Ocr_with_paddle)"
         },
         {
           "title": "Desafios em Java BootCamp Banco PAN - DIO",
           "description": "Disponibilizo meus estudos na linguagem Java desenvolvidos durante minha jornada no Boot Camp Banco Pan através da plataforma Digital Innovation One.",
-          "picture": "assets/bootcamp.png",
+          "picture": "bootcamp.png",
           "youtube": "",
           "repository": "[![Repositório no GitHub](https://img.shields.io/badge/Repositório-purple?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Cinthiacs/desafiosBootCampDioPan)"
         },
@@ -40,7 +40,7 @@
         {
           "title": "Titanic Challenge Kaggle | Brain - A.I League Brain - Facens | Sorocaba",
           "description": "Neste projeto, explorei técnicas de aprendizado de máquina para prever as chances de sobrevivência no naufrágio do Titanic.",
-          "picture": "assets/titanic.png",
+          "picture": "titanic.png",
           "youtube": "",
           "repository": "[![Repositório no GitHub](https://img.shields.io/badge/Repositório-purple?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Cinthiacs/titanicChallenge)"
         },

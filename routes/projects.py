@@ -1,7 +1,7 @@
 import streamlit as st
 from PIL import Image
 from utils.image_utils import get_circular_img
-from utils.project_path import get_content_path
+from utils.project_path import get_content_path, get_assets_path
 from utils.page_content import get_projects_project_list
 
 def projects_page():
@@ -17,8 +17,7 @@ def projects_page():
 
         with col2:
             if l["picture"] != "":
-                proj_img = Image.open(l["picture"])
-                st.image(proj_img)
+                st.image(Image.open(get_assets_path() / l["picture"]))
                 
             elif l["youtube"] != "":
                 st.video(l["youtube"])

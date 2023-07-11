@@ -25,3 +25,7 @@ def get_content_path(language:str):
     else:
         return ''
     
+def get_assets_path():
+    current_dir = Path(__file__).parent if "__file" in locals() else Path.cwd()
+    content_file = current_dir / "assets"
+    return content_file
